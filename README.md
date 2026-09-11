@@ -14,7 +14,7 @@ Static HTML, CSS and a few lines of JavaScript. No dependencies, no build step.
 
 ## Why it exists
 
-It started as a riff on a real gallery's offline programme. The digital front doors for these things always look like e-commerce; this was an evening spent asking what the page would look like if it behaved like the room instead.
+A riff on a real gallery's offline programme, redrawn as a members' room rather than a shop.
 
 ## Running it
 
