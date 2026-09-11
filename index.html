@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline Gallery</title>
+    <meta name="description" content="Offline Gallery — a slow-viewing space for digital art." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="logo">Offline Gallery</div>
+      <nav class="nav">
+        <a href="#exhibitions">Exhibitions</a>
+        <a href="#artists">Artists</a>
+        <a href="#visit">Visit</a>
+        <button class="ghost" type="button">Members</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">offline.superrare.com / reimagined</p>
+          <h1>Art meant to be seen when the feed goes quiet.</h1>
+          <p class="lead">
+            Offline Gallery is a slow-viewing space for digital art — curated drops,
+            physical installations, and private rooms that open by invitation.
+          </p>
+          <div class="hero-actions">
+            <button class="primary" type="button">Request access</button>
+            <button class="ghost" type="button">View the catalog</button>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="label">Location</span>
+              <span>New York + Berlin</span>
+            </div>
+            <div>
+              <span class="label">Next opening</span>
+              <span>Oct 18, 7:00 PM</span>
+            </div>
+            <div>
+              <span class="label">Collector count</span>
+              <span>2,381</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-glow"></div>
+          <div class="panel-card">
+            <div class="panel-title">Current Exhibition</div>
+            <h2>Signal Without Noise</h2>
+            <p>
+              A room of luminous works exploring latency, memory, and the warmth
+              of offline time.
+            </p>
+            <div class="panel-footer">
+              <span>Curated by L. Voss</span>
+              <button class="ghost" type="button">Preview</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="exhibitions" class="section">
+        <div class="section-head">
+          <h3>Exhibitions</h3>
+          <p>Three chambers. Nine nights. Always on the edge of digital silence.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <span class="tag">Now</span>
+            <h4>Signal Without Noise</h4>
+            <p>Slow-burn installations, filmic loops, and tonal sculpture.</p>
+            <div class="card-meta">Oct 18 – Nov 02</div>
+          </article>
+          <article class="card">
+            <span class="tag">Upcoming</span>
+            <h4>Darkroom Rewind</h4>
+            <p>Analog textures translated through experimental render stacks.</p>
+            <div class="card-meta">Nov 16 – Dec 04</div>
+          </article>
+          <article class="card">
+            <span class="tag">Archive</span>
+            <h4>The Echo District</h4>
+            <p>Collective remembrance of forgotten platforms and lost rooms.</p>
+            <div class="card-meta">Sept 02 – Sept 29</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="artists" class="section">
+        <div class="section-head split">
+          <div>
+            <h3>Artists in residence</h3>
+            <p>Independent voices building new ways to collect and experience art.</p>
+          </div>
+          <div class="stat">
+            <span class="stat-value">42</span>
+            <span class="stat-label">Artists across 9 cities</span>
+          </div>
+        </div>
+        <div class="artist-grid">
+          <div class="artist">Juno A.</div>
+          <div class="artist">Marcellus Drift</div>
+          <div class="artist">Elen Crowe</div>
+          <div class="artist">Sia K.</div>
+          <div class="artist">Val Kora</div>
+          <div class="artist">Nami Float</div>
+        </div>
+      </section>
+
+      <section id="visit" class="section visit">
+        <div class="visit-card">
+          <h3>Visit the rooms</h3>
+          <p>
+            Appointments are limited. Members receive access to installations,
+            drops, and the private collector lounge.
+          </p>
+          <form class="visit-form">
+            <input type="email" placeholder="email@collector.com" required />
+            <button class="primary" type="submit">Join the list</button>
+          </form>
+          <div class="visit-details">
+            <div>
+              <span class="label">Gallery hours</span>
+              <span>Wed–Sun · 1–8 PM</span>
+            </div>
+            <div>
+              <span class="label">Private viewings</span>
+              <span>By request</span>
+            </div>
+          </div>
+        </div>
+        <div class="visit-art"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <div class="logo">Offline Gallery</div>
+        <p>Curated digital art, slowed down.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:hello@offline-gallery.com">hello@offline-gallery.com</a>
+        <a href="#">Instagram</a>
+        <a href="#">Press kit</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
